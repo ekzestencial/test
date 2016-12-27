@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Doublelist	doublelist.h	/^class Doublelist:public list{$/;"	c	inherits:list
+Doublelist::myPrevious	doublelist.h	/^list *myPrevious;$/;"	m	class:Doublelist	access:private
+LIST_H_	list.h	2;"	d
+addValue	list.cpp	/^void list::addValue(int value) {$/;"	f	class:list	signature:(int value)
+addValue	list.h	/^void addValue(int );$/;"	p	class:list	access:public	signature:(int )
+counter	list.cpp	/^  int counter = 0;$/;"	l
+current	list.cpp	/^  list *current = this;$/;"	l
+length	list.cpp	/^int list::length() {$/;"	f	class:list	signature:()
+length	list.h	/^int length();$/;"	p	class:list	access:public	signature:()
+length	main.cpp	/^  cout << l.length();$/;"	p	file:	signature:()
+list	list.cpp	/^list::list(int val) {$/;"	f	class:list	signature:(int val)
+list	list.h	/^class list{$/;"	c
+list	list.h	/^list(int);$/;"	p	class:list	access:public	signature:(int)
+list::addValue	list.cpp	/^void list::addValue(int value) {$/;"	f	class:list	signature:(int value)
+list::addValue	list.h	/^void addValue(int );$/;"	p	class:list	access:public	signature:(int )
+list::length	list.cpp	/^int list::length() {$/;"	f	class:list	signature:()
+list::length	list.h	/^int length();$/;"	p	class:list	access:public	signature:()
+list::list	list.cpp	/^list::list(int val) {$/;"	f	class:list	signature:(int val)
+list::list	list.h	/^list(int);$/;"	p	class:list	access:public	signature:(int)
+list::myNext	list.h	/^list *myNext;$/;"	m	class:list	access:private
+list::myValue	list.h	/^int myValue;$/;"	m	class:list	access:private
+main	main.cpp	/^main() {$/;"	f	signature:()
+myNext	list.h	/^list *myNext;$/;"	m	class:list	access:private
+myPrevious	doublelist.h	/^list *myPrevious;$/;"	m	class:Doublelist	access:private
+myValue	list.h	/^int myValue;$/;"	m	class:list	access:private
