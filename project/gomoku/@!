@@ -1,0 +1,11 @@
+#include <iostream>
+#include "board.h"
+#include "boardview.h"
+using namespace std;
+
+main() {
+  Board b;
+  BoardView v(&b);
+  v.start_Game();
+  return 0;
+}

@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOARD_H_	board.h	2;"	d
+Board	board.h	/^Board();$/;"	p	class:Board	access:public	signature:()
+Board	board.h	/^class Board{$/;"	c
+Board::Board	board.h	/^Board();$/;"	p	class:Board	access:public	signature:()
+Board::FIELD_SIZE	board.h	/^static const int FIELD_SIZE;$/;"	m	class:Board	access:private
+Board::Move	board.h	/^bool make Move(int x, int y,int sign(enum));$/;"	p	class:Board	access:public	signature:(int x, int y,int sign(enum))
+Board::get_Size	board.h	/^void get_Size();$/;"	p	class:Board	access:public	signature:()
+Board::getcell	board.h	/^int getcell(int x,int y);$/;"	p	class:Board	access:public	signature:(int x,int y)
+Board::who_Win	board.h	/^int who_Win();$/;"	p	class:Board	access:public	signature:()
+BoardView	boardview.cpp	/^BoardView::BoardView(Board *b) { board = b; }$/;"	f	class:BoardView	signature:(Board *b)
+BoardView	boardview.h	/^BoardView(Board *b);$/;"	p	class:BoardView	access:public	signature:(Board *b)
+BoardView	boardview.h	/^class BoardView{$/;"	c
+BoardView::BoardView	boardview.cpp	/^BoardView::BoardView(Board *b) { board = b; }$/;"	f	class:BoardView	signature:(Board *b)
+BoardView::BoardView	boardview.h	/^BoardView(Board *b);$/;"	p	class:BoardView	access:public	signature:(Board *b)
+BoardView::board	boardview.h	/^Board *board;$/;"	m	class:BoardView	access:private
+BoardView::show	boardview.cpp	/^void BoardView::show() {$/;"	f	class:BoardView	signature:()
+BoardView::show	boardview.h	/^void show();$/;"	p	class:BoardView	access:private	signature:()
+BoardView::start_Game	boardview.cpp	/^BoardView::start_Game() {$/;"	f	class:BoardView	signature:()
+BoardView::start_Game	boardview.h	/^void start_Game();$/;"	p	class:BoardView	access:public	signature:()
+FIELD_SIZE	board.h	/^static const int FIELD_SIZE;$/;"	m	class:Board	access:private
+Move	board.h	/^bool make Move(int x, int y,int sign(enum));$/;"	p	class:Board	access:public	signature:(int x, int y,int sign(enum))
+b	main.cpp	/^  Board b;$/;"	l
+board	boardview.h	/^Board *board;$/;"	m	class:BoardView	access:private
+get_Size	board.h	/^void get_Size();$/;"	p	class:Board	access:public	signature:()
+getcell	board.h	/^int getcell(int x,int y);$/;"	p	class:Board	access:public	signature:(int x,int y)
+i	boardview.cpp	/^      Vivod kletki i, j b->getCel(i, j)$/;"	l
+main	main.cpp	/^main() {$/;"	f	signature:()
+show	boardview.cpp	/^    b->who_Win() спросить ход 1 игрока b->makeMove show();$/;"	p	file:	signature:()
+show	boardview.cpp	/^void BoardView::show() {$/;"	f	class:BoardView	signature:()
+show	boardview.h	/^void show();$/;"	p	class:BoardView	access:private	signature:()
+startGame	main.cpp	/^  v.startGame();$/;"	p	file:	signature:()
+start_Game	boardview.cpp	/^BoardView::start_Game() {$/;"	f	class:BoardView	signature:()
+start_Game	boardview.h	/^void start_Game();$/;"	p	class:BoardView	access:public	signature:()
+who_Win	board.h	/^int who_Win();$/;"	p	class:Board	access:public	signature:()

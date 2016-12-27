@@ -1,0 +1,11 @@
+all: gomoku
+gomoku: main.o board.o boardview.o
+	g++ boardview.o board.o main.o -o gomoku 
+main.o: main.cpp 
+	g++ -c main.cpp 
+board.o: board.h board.cpp 
+	g++ -c board.cpp 
+boardview.o: boardview.h boardview.cpp
+	g++ -c boardview.cpp 
+clean: 
+	rm -rf *.o
